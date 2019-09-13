@@ -1,0 +1,9 @@
+name: nCristais
+version: 1.0-ESTAVEL
+main: kun.nicko.cristais.Cristais
+authors: [yNickoKun]
+description: Plugin de Cristais básico - Open-source
+commands:
+  cristais:
+    description: Comando base.
+    aliases: [cristal, ncristal, ncristais]

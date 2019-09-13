@@ -1,0 +1,29 @@
+# Plugin 1.0-Estavel
+# Não pretendo atualizar este plugin. A ultima versão dele será a proxima e terá suporte a multiplos cristais.
+#
+# Variaveis:
+# %nivel% - Nível do cristal ; %player% - Nome do jogador ; %level% - Nivel do encantamento para as mensagens
+
+cristal-ds: # Item unico, nao apagar
+  item:
+    material: QUARTZ # Material, para mudar, mude para o nome em ingles
+    data: 0 
+    nome: "&9&lCristal - Passos Profundos &7(Nível %nivel%)" # Nome do cristal
+    lore: # Lore do cristal
+    - ""
+    - "&3&l * &bEncantamento: &fPassos Profundos %nivel%"
+    - "&3&l * &bDescrição: &fColoque no seu par de botas e fique mais rápido!"
+    - ""
+    - "&7&o(Clique com ele sobre seu par de botas)
+    
+# Mensagens totalmente alteraveis, faça como preferir.
+messages:
+  prefix: "&b&l Cristais&b: "
+  playerinvalido: "&cJogador inválido."
+  nivelinvalido: "&cNúmero inválido."
+  givesucesso: "&aVocê deu um Cristal a %player%."
+  recebidosucesso: "&aVocê recebeu um cristal."
+  usocorreto: "/cristais dar <jogador> <tipo> <quantidade>"
+  iteminvalido: "&cVocê precisa de ao menos &f1&c item para aplicar o encantamento."
+  niveladicionado: "&aVocê adicionou &bPassos Profundos %level% &aao seu item."
+  encantadosucesso: "&aVocê encantatou seu item com &bPassos Profundos %level%&a."
